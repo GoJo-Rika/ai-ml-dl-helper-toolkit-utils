@@ -1,6 +1,7 @@
 """Contains functions for training and testing a PyTorch model."""
 
 import torch
+from torch.utils.tensorboard import SummaryWriter
 from tqdm.auto import tqdm
 
 
